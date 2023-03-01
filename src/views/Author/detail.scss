@@ -1,0 +1,52 @@
+.author {
+  padding: 25px 20px 0;
+
+  .name {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .dynasty {
+    font-size: 17px;
+    margin-top: 5px;
+  }
+
+  .subtitle {
+    color: #92130a;
+    margin-top: 12px;
+  }
+
+  .desc {
+    margin-top: 10px;
+  }
+
+  .works-subtitle {
+    margin-top: 12px;
+  }
+
+  .work-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    display: block;
+
+    .title {
+      font-weight: 700;
+      color: #6495ed;
+    }
+
+    .content {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .author {
+      color: #aaa;
+      position: absolute;
+      bottom: 17px;
+      right: 10px;
+      font-size: 14px;
+    }
+  }
+}
